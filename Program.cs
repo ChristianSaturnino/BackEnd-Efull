@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<ApiContext, ApiContext>();
 builder.Services.AddScoped<ApiContext>();
 
-// Configuração do CORS
+// ConfiguraÃ§Ã£o do CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAllOrigins",
